@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MindInk — Support</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif;
+    background: #000;
+    color: #f5f5f7;
+    line-height: 1.7;
+    padding: 40px 20px;
+  }
+  .container { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 36px; font-weight: 700; margin-bottom: 8px; }
+  .tagline { color: #86868b; font-size: 18px; margin-bottom: 40px; }
+  h2 { font-size: 22px; font-weight: 600; margin: 32px 0 12px; }
+  p { margin-bottom: 16px; color: #ccc; font-size: 16px; }
+  a { color: #0a84ff; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .contact-card {
+    background: #1c1c1e;
+    border: 1px solid #38383a;
+    border-radius: 16px;
+    padding: 28px;
+    margin: 24px 0;
+  }
+  .contact-card h3 { font-size: 18px; margin-bottom: 12px; }
+  .contact-card p { margin-bottom: 8px; }
+  .faq-item { margin-bottom: 24px; }
+  .faq-item h3 { font-size: 17px; font-weight: 600; margin-bottom: 8px; color: #f5f5f7; }
+  .faq-item p { color: #aaa; }
+  code { background: #1c1c1e; padding: 2px 6px; border-radius: 4px; font-size: 14px; color: #86868b; }
+  .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #333; color: #86868b; font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>MindInk Support</h1>
+<p class="tagline">Voice to Text, 100% Offline</p>
+
+<div class="contact-card">
+  <h3>Get in Touch</h3>
+  <p>For questions, bug reports, or feature requests:</p>
+  <p><strong>Email:</strong> <a href="mailto:per.timoshuck@gmail.com">per.timoshuck@gmail.com</a></p>
+</div>
+
+<h2>Frequently Asked Questions</h2>
+
+<div class="faq-item">
+  <h3>Where is the app? I don't see a window.</h3>
+  <p>MindInk is a menu bar app. Look for the waveform icon in the top-right of your screen (the macOS menu bar). Left-click it to open the main window.</p>
+</div>
+
+<div class="faq-item">
+  <h3>How do I start transcribing?</h3>
+  <p>Press your hotkey (default: Option+Space) to start recording. Press it again to stop. The transcribed text is automatically typed into the active application.</p>
+</div>
+
+<div class="faq-item">
+  <h3>Does MindInk send my audio to the cloud?</h3>
+  <p>No. All transcription happens locally on your Mac using AI models stored on your device. Nothing is ever uploaded. The only network activity is downloading models on first use.</p>
+</div>
+
+<div class="faq-item">
+  <h3>Text isn't being typed automatically after transcription.</h3>
+  <p>Automatic text insertion requires Accessibility permission. Go to System Settings > Privacy & Security > Accessibility and add MindInk. Without this, transcribed text is still copied to your clipboard — just paste with Cmd+V.</p>
+</div>
+
+<div class="faq-item">
+  <h3>Which model should I choose?</h3>
+  <p>For most users, <strong>Whisper Base</strong> (142MB) is a great starting point — fast and accurate. If you need higher accuracy, try <strong>Whisper Small</strong> or <strong>Large V3 Turbo</strong>. For English-only dictation, <strong>Parakeet CTC</strong> is extremely fast.</p>
+</div>
+
+<div class="faq-item">
+  <h3>Can I use MindInk on Intel Macs?</h3>
+  <p>Yes, via Rosetta 2. Apple Silicon Macs will get better performance thanks to Metal GPU acceleration.</p>
+</div>
+
+<div class="faq-item">
+  <h3>How do I uninstall MindInk?</h3>
+  <p>Drag MindInk from Applications to Trash. To remove all data, also delete <code>~/Library/Application Support/VoiceInk/</code>.</p>
+</div>
+
+<div class="footer">
+  <p>MindInk is developed by Dmytro Tymoshchuk. <a href="privacy.html">Privacy Policy</a></p>
+</div>
+
+</div>
+</body>
+</html>
